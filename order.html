@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Суши-бар Йкогама. Сашими, суши, роллы, напитки">
+    <title>заказ столиков</title>
+    <link rel="stylesheet" href="C:\Users\ALEX\Desktop\суши\site\pages\style\order.css">
+</head>
+
+<body>
+    <header>
+        <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em> </h1>
+        <table class="pricelist">
+            <main>
+                <nav>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\index.html">Главная</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\Shashimi.html">Сашими</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\shusi.html">Суши</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\Rolls.html">Роллы</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\7.1.html">Прайс-лист</div>
+                </nav>
+            </main>
+            <thead>
+        </table>
+    </header>
+    <main>
+        <h2>Заказ столив</h2>
+        <form action="mailto:order@yocogama.ru" method="post" enctype="text/plain"></form>
+        <form>
+            <p><label for="name">Как к вам обращаться?</label><br>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <p><label for="Phone">По какому телефону Вам  перезвонить?</label> <br>
+                <input type="text" name="phone" id="phone" required> 
+            </p>
+            <p><label for="time">На какое время желаете заказать столик?</label> <br>
+                <input type="time" name="time" id="time" required> </p>
+                <p><label for="cnt">На сколько человек <br> заказывается столик? </label>
+                <input type="radio" name="cnt" id="cnt" value="1">1&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt"  value="2"> 2 &nbsp;&nbsp;&nbsp;
+                <input type="radio" name="cnt"  value="more">3 и более </p>
+                <p><input type="checkbox" name="children" value="*">Среди клиентов будут дети </p>
+
+            <p><input type="submit"> </p>
+    </main>
+
+
+</body>
+
+</html>
