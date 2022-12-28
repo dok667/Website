@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Суши-бар Йкогама. Сашими, суши, роллы, напитки">
+    <title>заказ еды на вынос</title>
+    <link rel="stylesheet" href="C:\Users\ALEX\Desktop\суши\site\pages\style\take.css">
+</head>
+
+<body>
+    <header>
+        <h1>Суши-бар <em>&laquo;Йокогама&raquo;</em> </h1>
+        <table class="pricelist">
+            <main>
+                <nav>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\index.html">Главная</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\Shashimi.html">Сашими</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\shusi.html">Суши</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\Rolls.html">Роллы</div>
+                    <div><a href="C:\Users\ALEX\Desktop\суши\site\pages\7.1.html">Прайс-лист</div>
+                </nav>
+            </main>
+            <thead>
+        </table>
+    </header>
+    <main>
+        <h2>заказ еды на вынос</h2>
+        <p><label for="dishes">Что желаете  заказать?</label><br>
+        <select name="dishes" id="dishes" size="6" multiple>
+        <optgroup label for="Сашими">
+        <option value="unagi">Унаги</option>
+        <option value="hamachi">Химачи</option>
+    </optgroup>
+    <optgroup label for="Суши">
+        <option value="chukka">Чукка</option>
+        <option value="maguro">Магуро</option>
+        <option value="tobiko">Тобико</option>
+    </optgroup>
+        </select></p>
+      
+            <p><label for="Phone">По какому телефону Вам  перезвонить?</label> <br>
+                <input type="text" name="phone" id="phone" required> </p>
+                <p>Уровень удовлетворенности (от 1 до 10) <br>
+                <input type="range" min="1" max="10" value="8"></p>
+            <p><input type="submit"> </p>
+            <p>Введите текс сообщения <br> <textarea cols="40" rows="8" wrap="hard">Здраствуйте!</textarea> </p>
+    </main>
+
+
+</body>
+
+</html>
